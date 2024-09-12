@@ -1,0 +1,111 @@
+.new_product {
+    padding: 40px 70px 0 0;
+
+}
+
+.new_product h1 {
+    text-align: right;
+}
+
+.new_product .pro_slide {
+    flex-direction: row-reverse;
+    padding-top: 40px;
+    overflow: visible;
+    overflow-x: clip;
+}
+
+.new_product .pro_slide .damon {
+    background-color: #F3F5F7;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.new_product .pro_slide img {
+    width: 18vw;
+    object-fit: cover;
+}
+
+.new_product .add {
+    background-color: #141718;
+    color: #bfbfbf;
+    width: 15vw;
+    height: 3vw;
+    position: absolute;
+    inset: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transform: translateY(20.5vw) scale(0, 0);
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.new_product .pro_slide .damon:hover~.add,
+.new_product .add:hover {
+    transform: translateY(20.5vw) scale(1,1);
+}
+
+.new_product .pro_slide .damon:hover~.like , .new_product .like:hover {
+    transform: scale(1,1);
+}
+
+.new_product .pro_slide {
+    text-align: right;
+    font-size: 70%;
+}
+
+.new_product .like {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-shadow: 10px 10px 10px #000;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    box-shadow: -3px 8px 13px -4px #000;
+    border-radius: 100px;
+    transform: scale(0, 0);
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+
+.new_product .swiper-pagination-fraction,
+.new_product .swiper-pagination-custom,
+.new_product .swiper-horizontal>.swiper-pagination-bullets,
+.new_product .swiper-pagination-bullets.swiper-pagination-horizontal {
+    transform: translate(-40%, -32.88vw) !important;
+}
+
+.new_product .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.new_product .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    padding: 6px;
+    border: 3px solid #37496d;
+    transition: all 0.2s ease-in;
+}
+
+.new_product .swiper-pagination-bullet-active {
+    background-color: #155EEF;
+    padding: 6px 16px !important;
+    border-radius: 200px;
+}
+
+.new_product .star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    direction: rtl;
+    padding: 15px 0 5px 0;
+    color: #37496d;
+}
+
+.new_product p {
+    color: #37496d;
+    direction: rtl;
+    font-size: 16px;
+}

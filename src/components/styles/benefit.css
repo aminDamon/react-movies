@@ -1,0 +1,39 @@
+.benefits {
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    margin-top: 30px;
+}
+
+.benefits .benefit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.benefits .benefit h1 {
+    font-size: 14px;
+}
+
+.benefits .benefit p {
+    font-size: 0.8vw;
+    color: #555555;
+}
+
+.benefits .benefit .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #D0D5DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
